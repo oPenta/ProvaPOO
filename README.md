@@ -7,7 +7,7 @@ Este projeto é uma aplicação de gerenciamento de funcionários desenvolvida e
 -IDE como IntelliJ IDEA ou Eclipse
 
 ## Estrutura do Projeto
--'HelloAplication': classe principal que inicia a aplicação JavaFX;
+-`HelloAplication`: classe principal que inicia a aplicação JavaFX;
 -'HelloController': contém toda a lógica de controle da interface.
 -'Funcionario.java': define a interface gráfica da aplicação.
 -'Endereco.java': representa um funcionário.

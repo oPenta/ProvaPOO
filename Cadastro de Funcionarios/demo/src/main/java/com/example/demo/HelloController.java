@@ -42,7 +42,7 @@ public class HelloController {
     @FXML
     protected void onExcluirClick() {
         try {
-            String mat = txtMatriculaConsulta.getText(); // agora usa o campo de consulta
+            String mat = txtMatriculaConsulta.getText(); 
             boolean removido = funcionarios.removeIf(f -> f.getMatricula().equals(mat));
             if (!removido) throw new RuntimeException("Funcionário não encontrado.");
             salvar();
